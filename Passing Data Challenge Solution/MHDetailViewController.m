@@ -8,7 +8,6 @@
 
 #import "MHDetailViewController.h"
 
-
 @interface MHDetailViewController ()
 
 @end
@@ -28,7 +27,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.textLabel.text = self.textProxyObject.textString;
+    self.textLabel.text = self.textProxyString;
 }
 
 - (void)didReceiveMemoryWarning

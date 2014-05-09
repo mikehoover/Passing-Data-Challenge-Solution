@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MHTextProxy.h"
 
 @interface MHDetailViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UILabel *textLabel;
-@property (strong, nonatomic) MHTextProxy *textProxyObject;
+@property (strong, nonatomic) NSString *textProxyString;
 
 @end

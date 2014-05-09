@@ -8,8 +8,6 @@
 
 #import "MHViewController.h"
 #import "MHDetailViewController.h"
-#import "MHTextProxy.h"
-
 
 @interface MHViewController ()
 
@@ -31,9 +29,8 @@
         [self.textField resignFirstResponder];
         if ([segue.destinationViewController isKindOfClass:[MHDetailViewController class]]){
             MHDetailViewController *detailViewController = segue.destinationViewController;
-            MHTextProxy *textProxyObject = [[MHTextProxy alloc] init];
-            textProxyObject.textString = self.textField.text;
-            detailViewController.textProxyObject = textProxyObject;
+            NSString *proxyString = self.textField.text;
+            detailViewController.textProxyString = proxyString;
         }
         
     }
