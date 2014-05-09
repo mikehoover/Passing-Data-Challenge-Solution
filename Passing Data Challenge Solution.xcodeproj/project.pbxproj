@@ -21,6 +21,8 @@
 		46981E50191D15CA004A0EE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46981E32191D15C9004A0EE6 /* UIKit.framework */; };
 		46981E58191D15CA004A0EE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46981E56191D15CA004A0EE6 /* InfoPlist.strings */; };
 		46981E5A191D15CA004A0EE6 /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46981E59191D15CA004A0EE6 /* Passing_Data_Challenge_SolutionTests.m */; };
+		46981E68191D1739004A0EE6 /* MHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46981E67191D1739004A0EE6 /* MHDetailViewController.m */; };
+		46981E6B191D1D0A004A0EE6 /* MHTextProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46981E6A191D1D0A004A0EE6 /* MHTextProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		46981E55191D15CA004A0EE6 /* Passing Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		46981E57191D15CA004A0EE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46981E59191D15CA004A0EE6 /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		46981E66191D1739004A0EE6 /* MHDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDetailViewController.h; sourceTree = "<group>"; };
+		46981E67191D1739004A0EE6 /* MHDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDetailViewController.m; sourceTree = "<group>"; };
+		46981E69191D1D0A004A0EE6 /* MHTextProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHTextProxy.h; sourceTree = "<group>"; };
+		46981E6A191D1D0A004A0EE6 /* MHTextProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHTextProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				46981E40191D15CA004A0EE6 /* Main.storyboard */,
 				46981E43191D15CA004A0EE6 /* MHViewController.h */,
 				46981E44191D15CA004A0EE6 /* MHViewController.m */,
+				46981E66191D1739004A0EE6 /* MHDetailViewController.h */,
+				46981E67191D1739004A0EE6 /* MHDetailViewController.m */,
+				46981E69191D1D0A004A0EE6 /* MHTextProxy.h */,
+				46981E6A191D1D0A004A0EE6 /* MHTextProxy.m */,
 				46981E46191D15CA004A0EE6 /* Images.xcassets */,
 				46981E35191D15CA004A0EE6 /* Supporting Files */,
 			);
@@ -252,6 +262,8 @@
 			files = (
 				46981E3B191D15CA004A0EE6 /* main.m in Sources */,
 				46981E45191D15CA004A0EE6 /* MHViewController.m in Sources */,
+				46981E6B191D1D0A004A0EE6 /* MHTextProxy.m in Sources */,
+				46981E68191D1739004A0EE6 /* MHDetailViewController.m in Sources */,
 				46981E3F191D15CA004A0EE6 /* MHAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

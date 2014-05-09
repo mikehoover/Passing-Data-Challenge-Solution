@@ -10,4 +10,6 @@
 
 @interface MHViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+
 @end
