@@ -29,8 +29,7 @@
         [self.textField resignFirstResponder];
         if ([segue.destinationViewController isKindOfClass:[MHDetailViewController class]]){
             MHDetailViewController *detailViewController = segue.destinationViewController;
-            NSString *proxyString = self.textField.text;
-            detailViewController.textProxyString = proxyString;
+            detailViewController.textProxyString = self.textField.text;
         }
         
     }
